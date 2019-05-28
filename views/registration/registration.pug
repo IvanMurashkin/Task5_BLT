@@ -1,0 +1,15 @@
+doctype html
+html
+head
+    meta(charset="UTF-8")
+    title Registration to Pixel Art
+    link(rel="stylesheet", href="./registration.css")
+body
+    div(class="wrapper")
+        form(action="/registration" method="post" class="registration-form")
+            img(src="/logo.png" class="registration-form__logo")
+            input(type="text" name="userName" class="registration-form__input" placeholder="Придумайте логин")
+            input(type="password" name="password" class="registration-form__input" placeholder="Придумайте пароль")
+            input(type="submit" class="registration-form__btn" value="Зарегистрироваться")
+    script(src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous")
+    script(src="/main.js")

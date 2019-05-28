@@ -1,0 +1,30 @@
+@import '../common-style.scss';
+
+.wrapper-users-list {
+    background-color: #eef2f4;
+    padding-top: 90px;
+    height: 100vh;
+}
+
+.users-list {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    border-radius: 4px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+}
+
+.users-list tbody tr:not(:last-child), 
+.users-list thead tr {
+    border-bottom: 1px solid #e3e8e6;
+}
+
+.users-list th:first-child, .users-list td:first-child {
+    border-right: 1px solid #ccc;
+}
+
+.users-list th, .users-list td {
+    padding: 11px;
+}

@@ -1,0 +1,21 @@
+doctype html
+html
+head
+    meta(charset="UTF-8")
+    title Pixel Art
+    link(rel="stylesheet", href="./users.css")
+body
+    div(class="wrapper-users-list")
+        table(class="users-list")
+            thead
+                tr
+                    th #
+                    th Пользователь
+            tbody
+                each user in users
+                    tr
+                        td #{users.indexOf(user)+1}
+                        td #{user.name}
+                else
+                    td(colspan=2) Нет данных для отображения
+            

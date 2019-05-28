@@ -1,0 +1,15 @@
+doctype html
+html
+head
+    meta(charset="UTF-8")
+    title Login to Pixel Art
+    link(rel="stylesheet", href="./login.css")
+body
+    div(class="wrapper")
+        form(class="login-form" method="post")
+            img(src="/logo.png" class="login-form__logo")
+            input(type="text" name="userName" class="login-form__input" placeholder="Введите логин")
+            input(type="password" name="password" class="login-form__input" placeholder="Введите пароль")
+            input(type="submit" class="login-form__btn" value="Войти")
+    script(src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous")
+    script(src="/main.js")

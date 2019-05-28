@@ -1,0 +1,32 @@
+{
+  "name": "task5_blt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass-watch": "sass --watch views:compiled_css",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanRUSH/Task5_BLT.git"
+  },
+  "author": "Ivan Murashkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanRUSH/Task5_BLT/issues"
+  },
+  "homepage": "https://github.com/IvanRUSH/Task5_BLT#readme",
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.20.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-pg-simple": "^5.0.0",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "pg": "^7.11.0"
+  }
+}

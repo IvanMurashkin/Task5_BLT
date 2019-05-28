@@ -1,0 +1,28 @@
+header {
+  color: white;
+  width: 100%;
+  min-height: 60px;
+  background-color: #151719;
+}
+
+.logo {
+  width: 140px;
+  margin-left: 40px;
+}
+
+.btn-login, .btn-sign-in, .btn-users-list {
+  border: none;
+  float: right;
+  background-color: #02a8f4;
+  padding: 10px 25px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-right: 15px;
+  bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */

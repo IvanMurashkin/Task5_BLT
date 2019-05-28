@@ -1,0 +1,25 @@
+.images, .video {
+  text-align: center;
+}
+
+.images img, .video iframe {
+  width: 405px;
+  height: 227px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+  height: 100%;
+}
+
+.content div {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=content.css.map */
